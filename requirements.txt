@@ -1,0 +1,6 @@
+numpy
+wandb
+git+https://github.com/cvai-roig-lab/Net2Brain
+ipykernel
+rich
+tqdm

@@ -1,0 +1,59 @@
+[
+  {
+    "type": "conv",
+    "out_channels": 384,
+    "kernel_size": 7,
+    "stride": 4,
+    "padding": 0
+  },
+  {
+    "type": "pool",
+    "kernel_size": 3,
+    "stride": 2
+  },
+  {
+    "type": "conv",
+    "out_channels": 512,
+    "kernel_size": 11,
+    "stride": 1,
+    "padding": 5
+  },
+  {
+    "type": "pool",
+    "kernel_size": 3,
+    "stride": 2
+  },
+  {
+    "type": "conv",
+    "out_channels": 512,
+    "kernel_size": 3,
+    "stride": 1,
+    "padding": 1
+  },
+  {
+    "type": "pool",
+    "kernel_size": 3,
+    "stride": 2
+  },
+  {
+    "type": "conv",
+    "out_channels": 512,
+    "kernel_size": 9,
+    "stride": 1,
+    "padding": 4
+  },
+  {
+    "type": "conv",
+    "out_channels": 512,
+    "kernel_size": 5,
+    "stride": 1,
+    "padding": 2
+  },
+  {
+    "type": "conv",
+    "out_channels": 512,
+    "kernel_size": 5,
+    "stride": 1,
+    "padding": 2
+  }
+]
